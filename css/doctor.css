@@ -179,13 +179,13 @@ i.service-icon {
 
 /* Call to Action */
 
-.call-to-action {
+.work {
   color: #ffffff;
   background: #0a5175;
   padding: 50px 0;
 }
 
-.call-to-action .btn {
+.work .btn {
   margin: 10px;
 }
 
