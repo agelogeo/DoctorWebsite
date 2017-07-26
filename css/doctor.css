@@ -314,6 +314,14 @@ i.scroll:hover {
   outline: 0;
 }
 
+.more_link{
+  text-align: right;
+}
+
+.more_link .link_text {
+  color: #080808;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
