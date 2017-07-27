@@ -1,11 +1,16 @@
 jQuery(function($) {
 
-	//#main-slider
 	$(function(){
 		$('#main-slider.carousel').carousel({
-			interval: 8000
+			interval: 10000,
+			pause: false
 		});
 	});
+
+	//scrollspy
+	$('[data-spy="scroll"]').each(function () {
+		var $spy = $(this).scrollspy('refresh');
+	})
 
 	$( '.centered' ).each(function( e ) {
 		$(this).css('margin-top',  ($('#main-slider').height() - $(this).height())/2);
