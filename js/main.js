@@ -1,9 +1,10 @@
 jQuery(function($) {
 
-	$(function(){
-		$('#main-slider.carousel').carousel({
-			interval: 10000,
-			pause: false
+	$('#main-slider').each(function() {
+		$(this).carousel({
+			interval: 3000,
+			loop : true,
+			pause : false
 		});
 	});
 
