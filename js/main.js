@@ -2,7 +2,7 @@ jQuery(function($) {
 
 	$('#main-slider').each(function() {
 		$(this).carousel({
-			interval: 3000,
+			interval: 5000,
 			loop : true,
 			pause : false
 		});
