@@ -21,6 +21,18 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+    </style>
+
 </head><!--/head-->
 <body data-spy="scroll" data-target=".navbar" data-offset="-100">
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -41,8 +53,22 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Επεμβάσεις <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
+                            <li><a href="general.html">Γενική Χειρουργική</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="test"  href="#">New dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">2nd level dropdown</a></li>
+                                    <li><a  href="#">2nd level dropdown</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">3rd level dropdown</a></li>
+                                            <li><a href="#">3rd level dropdown</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="blog-item.html">Λαπαροσκοπική Χειρουργική</a></li>
                             <li><a href="pricing.html">Pricing</a></li>
                             <li><a href="404.html">404</a></li>
                             <li><a href="registration.html">Registration</a></li>
@@ -451,5 +477,14 @@
                 }
         }
 	</script>
+    <script>
+        $(document).ready(function(){
+            $('.dropdown-submenu a.test').on("click", function(e){
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
 </body>
 </html>
