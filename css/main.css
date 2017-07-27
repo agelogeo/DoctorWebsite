@@ -266,7 +266,7 @@ body > section {
   background-color: #2980b9;
 }
 .alizarin {
-  background-color: #e74c3c;
+  background-color: #0a5175;
 }
 .pomegranate {
   background-color: #c0392b;
@@ -1086,4 +1086,45 @@ ul.faq li > div h3 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+
+#footer_menu {
+  list-style: none;
+  margin-left: -50px;
+}
+
+#footer_menu li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+/* Menu Items Color */
+#footer_menu li a {
+  display: block;
+  text-decoration: none;
+}
+/* Menu Items background Color HOVER rgba(255,255,255,0.2)*/
+#footer_menu li a:hover {
+  color: #fff;
+  background: #0a5175;
+  text-decoration: none;
+}
+
+#footer_menu li a:active,
+#footer_menu li a:focus {
+  text-decoration: none;
+}
+
+#footer_menu > #footer_menu-brand {
+  height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+}
+/* Menu Title Color HOVER rgba(255,255,255,0.2)*/
+#footer_menu > #footer_menu-brand a {
+  color: #999999;
+}
+
+#footer_menu > #footer_menu-brand a:hover {
+  color: #fff;
+  background: none;
 }
