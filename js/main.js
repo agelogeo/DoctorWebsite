@@ -7,10 +7,11 @@ jQuery(function($) {
 		});
 	});
 
-	//scrollspy
-	$('[data-spy="scroll"]').each(function () {
-		var $spy = $(this).scrollspy('refresh');
-	})
+	$( document ).ready(function() {
+		//Scrollspy offset
+		$("body").scrollspy({target: ".navbar", offset:90});
+	});
+
 
 	$( '.centered' ).each(function( e ) {
 		$(this).css('margin-top',  ($('#main-slider').height() - $(this).height())/2);
