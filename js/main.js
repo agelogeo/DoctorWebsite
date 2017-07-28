@@ -8,10 +8,10 @@ jQuery(function($) {
 		});
 	});
 
-	$( document ).ready(function() {
+	/*$( document ).ready(function() {
 		//Scrollspy offset
 		$("body").scrollspy({target: ".navbar", offset:90});
-	});
+	});*/
 
 
 	$( '.centered' ).each(function( e ) {

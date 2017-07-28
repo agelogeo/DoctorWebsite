@@ -258,7 +258,8 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-  background-color: #2ecc71;
+  background:url(../images/callout.jpg);
+  /*background-color: #2ecc71;*/
 }
 .nea-karta {
   background-color: #26766d;
