@@ -72,9 +72,28 @@ a:focus {
   text-decoration: none;
   outline: none;
 }
+
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+
+}
+
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(1, 0);
+  display: block;
+
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+/*
 .dropdown-menu {
   margin-top: -1px;
-}
+}*/
 
 .dropdown-menu > li {
   white-space: normal;
