@@ -406,7 +406,6 @@ body > section {
 }
 #main-slider .carousel .item {
   background-position: 50%;
-  background-repeat: no-repeat;
   background-size: cover;
   left: 0 !important;
   opacity: 0;
