@@ -1,12 +1,17 @@
 jQuery(function($) {
 
 	$('#main-slider').each(function() {
+        $('input').focus(function(){
+            $(this).carousel('pause');
+        }).blur(function() {
+            $(this).carousel('cycle');
+        });
 		$(this).carousel({
-			interval: 5000,
-			loop : true,
-			pause : false
+			interval: 6000,
+			loop : true
 		});
 	});
+
 
 	/*$( document ).ready(function() {
 		//Scrollspy offset

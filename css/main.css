@@ -95,6 +95,32 @@ a:focus {
   margin-top: -1px;
 }*/
 
+.under {
+   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+   filter: blur(5px);
+  background-color: rgba(1, 1, 1, 0.7);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#under_img {
+  z-index: 1000;
+  position: fixed;
+  display: block;
+  margin-left: 5%;
+  margin-top: -5%;
+  width: 1200px;
+  height : 500px;
+
+}
+
+
+
+
+
 .dropdown-menu > li {
   white-space: normal;
 }
@@ -380,7 +406,6 @@ body > section {
 }
 #main-slider .carousel .item {
   background-position: 50%;
-  background-repeat: no-repeat;
   background-size: cover;
   left: 0 !important;
   opacity: 0;
@@ -439,6 +464,8 @@ body > section {
   -o-animation: fadeInUp 300ms linear 300ms both;
   -ms-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
+  color : #FFFFFF;
+  text-shadow: 2px 2px #000000;
 }
 #main-slider .active .animation.animated-item-2 {
   -webkit-animation: fadeInUp 300ms linear 600ms both;
@@ -446,6 +473,12 @@ body > section {
   -o-animation: fadeInUp 300ms linear 600ms both;
   -ms-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
+  color : #FFFFFF;
+  text-shadow: 1px 1px #000000;
+  font-size : 24px;
+}
+#main-slider p{
+  font-size : 24px;
 }
 #main-slider .active .animation.animated-item-3 {
   -webkit-animation: fadeInUp 300ms linear 900ms both;
@@ -453,6 +486,8 @@ body > section {
   -o-animation: fadeInUp 300ms linear 900ms both;
   -ms-animation: fadeInUp 300ms linear 900ms both;
   animation: fadeInUp 300ms linear 900ms both;
+  color : #FFFFFF;
+  text-shadow: 1px 1px #000000;
 }
 #main-slider .active .animation.animated-item-4 {
   -webkit-animation: fadeInUp 300ms linear 1200ms both;
@@ -764,7 +799,6 @@ ul.tag-cloud li {
 .navbar-brand {
   padding-top: 10px;
   padding-bottom: 11px;
-
 }
 
 .navbar-inverse .navbar-nav {
