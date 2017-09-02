@@ -1325,4 +1325,8 @@ ul.social > li > a i {
   #title_name{
     width: 220px;
   }
+
+   iframe{
+       padding-right: 20px;
+   }
 }
