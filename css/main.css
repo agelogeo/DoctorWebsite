@@ -1321,6 +1321,10 @@ ul.social > li > a i {
   min-height: 60px;
 }
 
+.more_list{
+
+}
+
 @media only screen and (max-width: 768px) {
   #title_name{
     width: 220px;
