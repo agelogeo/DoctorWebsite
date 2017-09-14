@@ -1325,6 +1325,10 @@ ul.social > li > a i {
 
 }
 
+.selected{
+  background: #30b1a8;
+}
+
 @media only screen and (max-width: 768px) {
   #title_name{
     width: 220px;
