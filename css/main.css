@@ -45,7 +45,7 @@ h6 {
   font-weight: 400;
 }
 a {
-  color: #34495e;
+  color: #199eff;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -349,7 +349,7 @@ body > section {
   background-color: #006674;
 }
 .wet-asphalt a:not(.btn) {
-  color: #bdc3c7;
+  color: #eff5f9;
 }
 .wet-asphalt a:not(.btn):hover {
   color: #d9534f;
@@ -1328,6 +1328,15 @@ ul.social > li > a i {
 .selected{
   background: #30b1a8;
 }
+
+.thl::after{
+  content: "\2706";
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 18px;
+  position: absolute;
+}
+
 
 @media only screen and (max-width: 768px) {
   #title_name{
