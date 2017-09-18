@@ -1330,7 +1330,7 @@ ul.social > li > a i {
 }
 
 .thl::after{
-  content: "\2706";
+  content: "\00a0\2706";
   font-weight: normal;
   text-decoration: inherit;
   font-size: 18px;
