@@ -7,7 +7,7 @@ jQuery(function($) {
             $(this).carousel('cycle');
         });
 		$(this).carousel({
-			interval: 6000,
+			interval: 2000,
 			loop : true
 		});
 	});
